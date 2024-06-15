@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                       children: List.generate(5, (index) {
                         return Icon(
                           Icons.star,
-                          color: Colors.orange,
+                          color: const Color.fromARGB(255, 0, 157, 255),]
                           size: 20,
                         );
                       }),
